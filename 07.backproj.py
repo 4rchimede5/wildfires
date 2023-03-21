@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-roi = cv.imread('') red rose
+roi = cv.imread('') #dry vs moist & smoke/nosmoke
 hsv = cv.cvtColor(roi,COLOR_BRG2HSV)
 
 target = cv.imread('') rose
