@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv.imread('/home/zeus/Desktop/bomkumagua/1.png',0)
+img = cv.imread('',0)
 
 ret, thr1 = cv.threshold(img,50,255,cv.THRESH_BINARY)
 ret, thr2 = cv.threshold(img,50,255,cv.THRESH_BINARY_INV)
